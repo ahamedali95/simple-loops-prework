@@ -12,8 +12,8 @@ def loop_iterator(number_of_times)
   i = 0
 
   loop do
-    puts phrase
     i += 1
+    puts phrase
 
     break if i == number_of_times
   end
@@ -47,4 +47,4 @@ def for_iterator(number_of_times)
 
 end
 
-loop_iterator(7)
+
